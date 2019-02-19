@@ -1,0 +1,5 @@
+deshabilitar servicio del boot ubuntu
+    sudo update-rc.d mongodb disable
+
+eliminar servicio del boot ubuntu
+    sudo update-rc.d -f mongodb remove
