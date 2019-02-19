@@ -1,5 +1,24 @@
-deshabilitar servicio del boot ubuntu
+Deshabilitar servicio del boot ubuntu
     sudo update-rc.d mongodb disable
 
-eliminar servicio del boot ubuntu
+Eliminar servicio del boot ubuntu
     sudo update-rc.d -f mongodb remove
+
+Status servicio
+    sudo systemctl status mongodb
+
+Detener servicio
+    sudo systemctl stop mongodb
+
+Iniciar servicio
+    sudo systemctl start mongodb
+
+Reiniciar servicio
+    sudo systemctl restart mongodb
+
+Deshabilitar servicio
+    sudo systemctl disable mongodb
+
+Habilitar servicio
+    sudo systemctl enable mongodb
+
