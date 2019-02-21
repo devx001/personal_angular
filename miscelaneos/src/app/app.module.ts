@@ -9,7 +9,12 @@ import { ClasesComponent } from './components/clases/clases.component';
 import { ResaltadoDirective } from './directives/resaltado.directive';
 import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
 import { HomeComponent } from './components/home/home.component';
-import { APP_ROUTES } from './app.routes';
+import { APP_ROUTING } from './app.routes';
+import { UsuarioComponent } from './components/usuario/usuario.component';
+import { UsuarioNuevoComponent } from './components/usuario/usuario-nuevo.component';
+import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.component';
+import { UsuarioEditarComponent } from './components/usuario/usuario-editar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +24,17 @@ import { APP_ROUTES } from './app.routes';
     ClasesComponent,
     ResaltadoDirective,
     NgSwitchComponent,
-    HomeComponent
+    HomeComponent,
+    UsuarioComponent,
+    UsuarioNuevoComponent,
+    UsuarioDetalleComponent,
+    UsuarioEditarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    APP_ROUTES
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
